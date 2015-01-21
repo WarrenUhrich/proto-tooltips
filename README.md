@@ -68,3 +68,7 @@ $(document).ready(function() {
 
 });
 ```
+
+## Licence
+
+MIT License. Copyright 2015 Warren Uhrich
