@@ -19,6 +19,7 @@
           + 'margin: 0;'
           + 'background: #fff;'
           + 'position: absolute;'
+          + 'text-align: center;'
           + 'border: 1px solid black;'
           + 'border-radius: 3px;'
           + 'box-shadow: 1px 1px #000;'
