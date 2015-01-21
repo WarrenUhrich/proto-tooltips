@@ -2,6 +2,10 @@
 
 This jQuery tooltips plugin is intended for use in prototypes as a way to effectively communicate purpose and workflow throughout a web project.
 
+For a better idea of what this looks like, see the demo page: http://warrenuhrich.github.io/proto-tooltips/
+
+
+
 ## How do I add Proto-Tooltips to my website?
 
 Add the following file to your site:
