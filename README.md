@@ -25,27 +25,42 @@ Here's an example of what it would look like in practice:
 <a href="#" class="proto-tooltip" data-proto-tooltip="Note to self: Link this to a different page!">My Link</a>
 ```
 
-## Can I customize Proto-Tooltips?
-
-You sure can, there are various settings you can manipulate:
+Add the following to your main javascript file to run the plugin:
 
 ```
-protoTooltip({
-    tooltipClass: '.proto-tooltip',             // This is the class you will add to elements
-    time: 1000,                                 // This is the delay for the flashing effect
-    flash: true,                                // Change this to false to turn the flashing effect off
-    opacity: '0.6',                             // This is the opacity that the element will switch to when flashing
-    tooltipStyles: 'display: inline-block;'     // These are the tooltip stylings that will be applied
-      + 'padding: 5px;'
-      + 'margin: 0;'
-      + 'background: #fff;'
-      + 'position: absolute;'
-      + 'border: 1px solid black;'
-      + 'border-radius: 3px;'
-      + 'box-shadow: 1px 1px #000;'
-      + 'color: #000;'
-      + 'max-width: 100px;'
+$(document).ready(function() {
+
+
+  // Run Proto-Tooltips!
+  protoTooltip();
+
 });
 ```
 
-Simply add the above code in and manipulate it to your heart's content! The above settings are the default, and if you like these you won't even have to add the snippet in.
+## Can I customize Proto-Tooltips?
+
+If you'd like to customize the plugin, use the following when calling the function:
+
+```
+$(document).ready(function() {
+
+  // Run the Proto-Tooltips!
+  protoTooltip({
+      tooltipClass: '.proto-tooltip',             // This is the class you will add to elements
+      time: 1000,                                 // This is the delay for the flashing effect
+      flash: true,                                // Change this to false to turn the flashing effect off
+      opacity: '0.6',                             // This is the opacity that the element will switch to when flashing
+      tooltipStyles: 'display: inline-block;'     // These are the tooltip stylings that will be applied
+        + 'padding: 5px;'
+        + 'margin: 0;'
+        + 'background: #fff;'
+        + 'position: absolute;'
+        + 'border: 1px solid black;'
+        + 'border-radius: 3px;'
+        + 'box-shadow: 1px 1px #000;'
+        + 'color: #000;'
+        + 'max-width: 100px;'
+  });
+
+});
+```
