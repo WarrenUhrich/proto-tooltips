@@ -48,8 +48,4 @@ protoTooltip({
 });
 ```
 
-<<<<<<< HEAD
 Simply add the above code in and manipulate it to your heart's content! The above settings are the default, and if you like these you won't even have to add the snippet in.
-=======
-Simply add the above code in and manipulate it to your heart's content! The above settings are the default, and if you like these you won't even have to add the snippet in.
->>>>>>> FETCH_HEAD
